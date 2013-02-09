@@ -4,7 +4,7 @@ OpenFlights routing with Spatialite
 This is some ruby code using SQLite 3 and Spatialite to create a routing database from OpenFlights air routes, allowing route queries. It assumes Spatialite is installed in /usr/local/lib as it would be if installed using homebrew on Mac. Data is from http://openflights.org/data.html
 
 ```
-$ ruby load.rb
+$ ruby load.rb # make the database in data/flights.sqlite - not necessary if you grabbed this from GitHub
 ...
 
 $ ruby try.rb SFO BQN
