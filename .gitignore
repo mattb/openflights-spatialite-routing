@@ -16,3 +16,4 @@
 
 tags
 .*.sw*
+.DS_Store
